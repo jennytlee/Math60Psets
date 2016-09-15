@@ -1,0 +1,138 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 60, Section \hspace{1em}}
+\assignment{HW \#4}
+\duedate{Due 9/16, 2016}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\bk}[1]{\left[ #1 \right]}
+\newcommand{\vc}[1]{\left\langle #1 \right\rangle}
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\let\oldhat\hat
+\renewcommand{\hat}[1]{\oldhat{\mathbf{#1}}}
+
+\newcommand{\norm}[1]{\lvert #1 \rvert}
+
+% set numbering style for enumerated lists to be of form (a), (b), (c), etc.
+\renewcommand{\labelenumi}{{(\alph{enumi})}}
+
+% command to make 2in wide image centered on page
+\newcommand{\diagram}[1]{\begin{center}\includegraphics[width=2in]{#1}\end{center}}
+
+\begin{document}
+
+\problemlist{3.1: 3, 10, 16, 26; 3.2: 4, 14}
+
+\begin{problem}[3.1.3]
+	Sketch the images of the following path, using arrows to indicate the direction in which the parameter increases.
+    
+    \[
+    	\begin{cases}
+        	x &= t \cos{t} \\
+            y &= t \sin{t},\hspace{2em} -6 \pi \leq t \leq 6 \pi
+        \end{cases}
+    \]
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
+
+\vfill
+\newpage
+
+\begin{problem}[3.1.10]
+	Calculate the velocity, speed, and acceleration of the path
+    
+    \[
+    	\vec{x}(t) = \pn{e^t, e^{2t}, 2e^t}
+    \]
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
+
+\vfill
+\newpage
+
+\begin{problem}[3.1.16]
+	Find an equation for the line tangent to the given path at the indicated value for the parameter.
+    
+    \[
+    	\vec{x}(t) = 4 \cos(t)\hat{i} - 3\sin(t)\hat{j} + 5t\hat{k}, t = \pi/3
+    \]
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
+
+\vfill
+\newpage
+
+\begin{problem}[3.1.26]
+	Two   billiard   balls   are   moving   on   a   (coordinatized)  pool  table  according  to  the  respective  paths $\vec{x}(t) = \pn{t^2 - 2, \frac{t^2}{2} - 1}$ and $\vec{y}(t) = \pn{t, 5 - t^2}$, where $t$ represents time measured in seconds.
+    
+    
+    \begin{enumerate}
+		\item When and where do the balls collide?
+        \item What is the angle formed by the paths of the balls at the collision point?
+	\end{enumerate}
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
+
+\vfill
+\newpage
+
+\begin{problem}[3.2.4]
+	Calculate the length of the path
+    
+    \[
+    	\vec{x}(t) = 7 \hat{i} + t \hat{j} + t^2\hat{k}, 1 \leq t \leq 3.
+    \]
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
+
+\vfill
+\newpage
+
+\begin{problem}[3.2.14]
+	Consider the path $\vec{x}(t) = \pn{e^{-t}\cos{t}, e^{-t}\sin{t}}$.
+    
+    \begin{enumerate}
+		\item Argue that the path spirals toward the origin as $t \to +\infty$.
+		\item Show that, for any $a$, the improper integral
+        
+        \[
+        	\int_a^\infty \norm{\vec{x}'(t)}dt
+        \]
+        
+        converges.
+
+		\item Interpret what the result in part (b) says about the path $\vec{x}$.
+	\end{enumerate}
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
+
+\vfill
+\newpage
+
+\end{document}
